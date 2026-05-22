@@ -1,8 +1,35 @@
-Pointer :- Store the address of the variable.
+ Definition
+
+A pointer is a variable that stores the memory address of another variable.
+
+Normal variable stores value
+Pointer variable stores address (memory location)
 
 
-*
+Note :- 
+ Asterisk * -> * is used to access the value at the stored address (also called dereferencing operator).
 
+| Variable | Meaning                        |
+| -------- | ------------------------------ |
+| `a`      | stores **10**                  |
+| `&a`     | address of a                   |
+| `p`      | pointer storing address of `a` |
+
+
+Example :- 
+int a = 5;      // Value = 5, assume address = 2022
+int *ptr;       // Pointer variable
+ptr = &a;       // ptr stores address of a (2022)
+
+So:
+
+ptr = 2022 (address of a)
+*ptr = 5 (value stored at that address)
+
+
+| Purpose       | Format Specifier |
+| ------------- | ---------------- |
+| Print address | `%p`             |
 =================================================
 
 
@@ -17,5 +44,6 @@ A functions has three main parts :-
 3. function definition
 
 
-
+change folder/directory -> cd folderName 
+Back -> cd ..
 

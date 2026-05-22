@@ -144,29 +144,50 @@
 // Factorial  Number using the recursive 
 
 
-#include<stdio.h>
+// #include<stdio.h>
 
-void fact(int no);
-int main(){
+// void fact(int no);
+// int main(){
    
-    int no;
-    printf("Enter Any number :");
-    scanf("%d", &no);
-    fact(no);
-    return 0;
-}
+//     int no;
+//     printf("Enter Any number :");
+//     scanf("%d", &no);
+//     fact(no);
+//     return 0;
+// }
 
-void fact(int no){
+// void fact(int no){
 
-  static int f = 1;
+//   static int f = 1;
 
-    if(no >=1){
-        f = f*no; // 1*5 = 5*4=20
-        fact(no-1); // 4
-    }else{
-      printf("%d",f);
-    }
-}
+//     if(no >=1){
+//         f = f*no; // 1*5 = 5*4=20
+//         fact(no-1); // 4
+//     }else{
+//       printf("%d",f);
+//     }
+// }
+
 
 
 // sum of n number using the recursion
+
+#include<stdio.h>
+
+int calSum(int n);
+int main(){
+    
+    int no;
+    printf("Enter the number\n");
+    scanf("%d",&no);
+   printf("Sum = %d\n",  calSum(no));
+    return 0;
+}
+
+int calSum(int n){
+    if(n == 1)
+        return 1;
+    else
+        return n + calSum(n-1);//10+9+8+
+    
+}
