@@ -42,17 +42,32 @@
 
 // Pointer to array 
 
+// #include<stdio.h>
+// int main(){
+//    int a[] = {10,20,30,40,50};
+//    int *ptr;
 
-#include<stdio.h>
-int main(){
-   int a[] = {10,20,30,40,50};
-   int *ptr;
+//    ptr = &a[0];
 
-   ptr = &a[0];
+//    for(int i=0;i<5;i++){
+//      printf("%d", *ptr);
+//     //  ptr++;
+//    }
+//     return 0;
+// }
 
-   for(int i=0;i<5;i++){
-     printf("%d", *ptr);
-    //  ptr++;
-   }
-    return 0;
-}
+
+// ======================================
+
+// Array to pointer 
+
+// #include<stdio.h>
+// int main(){
+//    char *name[]  = {"rahul","raja","jayesh","Ram","Shayam"};
+//   // int *arr[] = {1,2,3,4,5,6,7};
+
+//    for(int i=0;i<5;i++){
+//      printf("%s\n", name[i]);
+//    }
+//     return 0;
+// }
