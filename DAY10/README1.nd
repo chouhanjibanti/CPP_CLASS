@@ -1,0 +1,16 @@
+Polymorphism :- 
+      one function showing different behavious in different situations.
+
+Types :- 
+1. compile Time Polymorphism
+2. Run Time Polymorphism
+3. functions overloading  -> 
+4. functions overiding 
+
+
+
+function overloading :- same functions name with diff parameter.
+
+
+
+
