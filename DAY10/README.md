@@ -84,3 +84,6 @@ Hybrid inheritance :- commbination of any two types of inheritance is known as h
     
 
 
+Class -> functions -> Declaration -> public 
+
+Class -> functions -> Logic / Implementation -> private 
