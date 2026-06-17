@@ -1,31 +1,31 @@
-// #include<iostream>
-// using namespace std;
+#include<iostream>
+using namespace std;
 
-// class Cons{
-//     int a, b;
-//  public:   
-//      Cons(){
-//         a=1;
-//         b=2;
-//      }
-//      void set(){
-//         cout << "Enter the value or a,b";
-//         cin >> a>> b;
-//      }
+class Cons{
+    int a, b;
+ public:   
+     Cons(){
+        a=1;
+        b=2;
+     }
+     void set(){
+        cout << "Enter the value or a,b";
+        cin >> a>> b;
+     }
 
-//      void add(){
-//         cout << "Sum = " << a+b << endl;
-//      }
-// };
+     void add(){
+        cout << "Sum = " << a+b << endl;
+     }
+};
 
-// int main(){
-//     Cons obj;
-//     obj.add();
-//     obj.set();
-//     obj.add();
-//     return 0;
+int main(){
+    Cons obj;
+    obj.add();
+    obj.set();
+    obj.add();
+    return 0;
 
-// }
+}
 
 
 // A copy constructor is used to copy the value of one obj to another object.
